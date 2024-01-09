@@ -1,0 +1,28 @@
+@api = http://localhost:3000/api/tasks
+
+GET {{api}}
+
+###
+POST {{api}}
+
+{
+    "title": "something",
+    "description": "some description"
+}
+
+###
+GET {{api}}/1
+
+###
+PUT {{api}}/1
+
+{
+    "title": "11",
+    "description": "some des"
+    
+}
+
+###
+DELETE {{api}}/1
+
+
